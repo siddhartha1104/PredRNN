@@ -9,9 +9,9 @@ from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense, Reshape, LSTM
 
 # Change to your dataset directory
-os.chdir('D:\PredRNN')
+os.chdir('/home/sidlinux/dataScience/PredRNN/')
 
-asl_dataset_path = 'D:\PredRNN\data'
+asl_dataset_path = '/home/sidlinux/dataScience/PredRNN/data'
 
 categories = os.listdir(asl_dataset_path)
 
